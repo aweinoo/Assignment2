@@ -51,15 +51,25 @@ Welcome to the **ToDo App**, a beautifully designed task management tool built w
 ```
 lib/
 ├── main.dart
+│
+├── routes/
+│   └── app_routes.dart
+│
 ├── screens/
-│   ├── onboarding.dart
+│   ├── dashboard.dart
 │   ├── login.dart
-│   ├── register.dart
-│   └── dashboard.dart
+│   ├── onboarding.dart
+│   └── signup.dart
+│
 ├── widgets/
+│   ├── authservice.dart
+│   ├── clockpainter.dart
+│   ├── custom_button.dart
+│   ├── input_field.dart
+│   ├── liveclock.dart
 │   ├── task_tile.dart
-│   └── task_storage_service.dart
-└── models/
+│   └── taskstorage.dart
+
 ```
 
 ---
