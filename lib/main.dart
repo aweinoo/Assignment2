@@ -18,8 +18,7 @@ class MyApp extends StatelessWidget {
           selectionHandleColor: Color(0xFF9dd4d7),
         ),
       ),
-      initialRoute: AppRoutes.dashboard,
-      // initialRoute: AppRoutes.signup,
+      initialRoute: AppRoutes.signup,
       onGenerateRoute: AppRoutes.generateRoute,
       debugShowCheckedModeBanner: false,
     );

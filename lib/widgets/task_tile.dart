@@ -15,8 +15,6 @@ class _TaskTileState extends State<TaskTile> {
   @override
   Widget build(BuildContext context) {
     return Row(
-      // spacing between the checkbox and text
-      spacing: 12.0,
       children: [
         GestureDetector(
           onTap: () {
@@ -34,6 +32,7 @@ class _TaskTileState extends State<TaskTile> {
             ),
           ),
         ),
+        const SizedBox(width: 12),
         Expanded(
           child: Text(widget.title, style: const TextStyle(fontSize: 14)),
         ),
