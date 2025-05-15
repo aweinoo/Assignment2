@@ -62,13 +62,13 @@ lib/
 │   └── signup.dart
 │
 ├── widgets/
-│   ├── authservice.dart
-│   ├── clockpainter.dart
-│   ├── custom_button.dart
-│   ├── input_field.dart
-│   ├── liveclock.dart
-│   ├── task_tile.dart
-│   └── taskstorage.dart
+    ├── authservice.dart
+    ├── clockpainter.dart
+    ├── custom_button.dart
+    ├── input_field.dart
+    ├── liveclock.dart
+    ├── task_tile.dart
+    └── taskstorage.dart
 
 ```
 
